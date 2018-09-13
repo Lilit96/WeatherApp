@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+        <div class="page">
+            <div class="main">
+                <div class="location">
+                <div >
+                        <div class="country-text">Country</div>
+                        <div class="contry-select">
+                            <select id="country" onchange="selectedCountry(this.value)">
+                                <option value="AM" selected>Armenia</option>
+                                <option value="RU">Russia</option>
+                                <option value="FR">France</option>
+                            </select>
+                        </div>
+                </div>
+                <div >
+                        <div>City</div>
+                        <div id="addcity">
+                            
+                        </div>
+                </div>
+                <div >
+                        
+                        <div id="weekDay">
+                        
+                        </div>
+                </div>
+                </div>
+
+              
+                    <div class="day">
+                        <div class="temp-div">
+                            <div id="temp"></div> 
+                            <img src="" alt="" id="img"> 
+                        </div>
+                        <div class="day-div"> Wind:<span id="wind"></span></div>
+                        <div class="day-div"> Humidity:   <span id="hum"></span></div>
+                        <div class="day-div">Pressure: <span id="pres"></span></div>
+                    </div>
+                    
+              
+            </div>
+            <nav>
+                    <div class="weekday-item active"></div>
+                    <div class="weekday-item"></div>
+                    <div class="weekday-item"></div>
+                    <div class="weekday-item"></div>
+                    <div class="weekday-item"></div>
+                    <div class="weekday-item"></div>
+            </nav>
+        </div> 
+
+</body>
+</html>
