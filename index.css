@@ -79,7 +79,7 @@ nav{
 .weekday-item{
     width: 70px;
     height: 70px;
-    background-color: grey;
+    background-color: #777272;
     border-radius: 5px;
     text-align: center;
     font-weight: bold;
@@ -90,6 +90,6 @@ nav{
    cursor: pointer;
 }
 .weekday-item.active{
-    background-color: darkgray;
+    background-color:#271f1f;
 }
 
